@@ -111,7 +111,7 @@ const HeroSection = () => {
        hover:border-white/50
        hover:drop-shadow-[0_0_35px_rgba(250,204,21,0.15)]"
           animate={{
-            y: [0, -8, 0],
+            y: [0, -4, 0],
           }}
           transition={{
             duration: 4,

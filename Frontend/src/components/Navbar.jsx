@@ -13,10 +13,10 @@ import {
 const Navbar = () => {
   return (
     <nav className='flex justify-between items-center bg-black text-white h-15 p-8 bg-black'>
-     <div className='flex'>
-    <img src="" alt="" /> logo
-
+     <div className='flex items-center'>
+    <span className='text-xl elsie-black tracking-tight'>CraftCV</span>
      </div>
+
 
 
 
@@ -26,19 +26,33 @@ const Navbar = () => {
   <NavigationMenuList>
 
     <NavigationMenuItem>
-      <NavigationMenuTrigger>About</NavigationMenuTrigger>
+      <NavigationMenuTrigger>Templates</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <ul className='flex flex-col gap-2 p-4 w-48 bg-black text-white text-sm'>
+          <li><NavigationMenuLink asChild><Link to='/' className='hover:text-white/60 transition-colors'>Engineering</Link></NavigationMenuLink></li>
+          <li><NavigationMenuLink asChild><Link to='/' className='hover:text-white/60 transition-colors'>Design & Creative</Link></NavigationMenuLink></li>
+          <li><NavigationMenuLink asChild><Link to='/' className='hover:text-white/60 transition-colors'>Business & Finance</Link></NavigationMenuLink></li>
+          <li><NavigationMenuLink asChild><Link to='/' className='hover:text-white/60 transition-colors'>Fresh Graduate</Link></NavigationMenuLink></li>
+        </ul>
       </NavigationMenuContent>
     </NavigationMenuItem>
 
     <NavigationMenuItem>
-      Features
+      <NavigationMenuLink asChild>
+        <Link to='/' className='px-4 py-2 text-sm hover:text-white/60 transition-colors'>Features</Link>
+      </NavigationMenuLink>
+    </NavigationMenuItem>
+
+    <NavigationMenuItem>
+      <NavigationMenuLink asChild>
+        <Link to='/' className='px-4 py-2 text-sm hover:text-white/60 transition-colors'>Pricing</Link>
+      </NavigationMenuLink>
     </NavigationMenuItem>
 
   </NavigationMenuList>
 </NavigationMenu>
 </div>
+
 
 
 <div className='flex gap-4 '>
