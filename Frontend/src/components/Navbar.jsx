@@ -12,7 +12,7 @@ import {
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center bg-black text-white h-15 p-8'>
+    <nav className='flex justify-between items-center bg-black text-white h-15 p-8 bg-black'>
      <div className='flex'>
     <img src="" alt="" /> logo
 
