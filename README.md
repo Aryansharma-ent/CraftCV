@@ -93,9 +93,9 @@ The app will run at `http://localhost:3000` (client) and `http://localhost:5000`
 
 | Name | Role |
 |---|---|
-| Member A | Backend — API, database, models |
-| Member B | Frontend — builder logic, live preview, routing |
-| Member C | Templates & UI — portfolio designs, gallery, styling |
+| Bharat Dhakad | Backend — API, database, models |
+| Aryan Sharma | Frontend — builder logic, live preview, routing |
+| Bharat Kumar Sand | Templates & UI — portfolio designs, gallery, styling |
 
 ## Course Context
 
